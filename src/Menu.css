@@ -1,0 +1,22 @@
+/*Cabeçalho da pagina*/
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 3, 52);
+    height: 60px;
+    width: 100%;
+    align-items: center;
+   }
+
+ /* Imagem do logo*/
+img{
+   width: 70px;
+   height: 60px;
+}
+
+/*Itens da nav*/
+.botoes a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    color:white;
+}

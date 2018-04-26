@@ -7,18 +7,23 @@ class Menu extends Component
         return(
             
             <header>  
-            <a>
-            <img src="https://vignette.wikia.nocookie.net/logopedia/images/8/89/New_Doritos_Logo.png/revision/latest?cb=20130305015621" alt=""/>
-            </a>
-            <form> 
-            <input placeholder="O que deseja?"></input>
-            <button>Clique</button>
-            </form>
-            <nav class="botoes">
-            <a>Como fiz esse site</a>          
-            <a>Porque fiz esse site</a>          
-            <a>Aonde fiz esse site</a>
-            </nav>          
+            
+             <nav class="botoes">
+                
+                <div>
+                    <img src="" alt="logo"/>
+                    <input placeholder="O que deseja?"></input>
+                    <button>Clique</button>
+                </div> 
+            
+                 <div>
+                    <a>Como fiz esse site</a>          
+                    <a>Porque fiz esse site</a>          
+                    <a>Aonde fiz esse site</a>
+                </div>
+
+             </nav>          
+           
             </header>
             
         );
